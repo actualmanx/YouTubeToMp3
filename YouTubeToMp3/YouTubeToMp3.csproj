@@ -8,12 +8,27 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <PlatformTarget>x64</PlatformTarget>
     <Platforms>AnyCPU;x64</Platforms>
+    <StartupObject>YouTubeToMp3.Program</StartupObject>
+    <SignAssembly>False</SignAssembly>
+    <ApplicationIcon>youtube.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="youtube.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="NAudio" Version="2.2.1" />
     <PackageReference Include="NAudio.Lame" Version="2.1.0" />
     <PackageReference Include="YoutubeExplode" Version="6.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Kieran Hill\.nuget\packages\naudio.lame\2.1.0\build\libmp3lame.32.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Kieran Hill\.nuget\packages\naudio.lame\2.1.0\build\libmp3lame.64.dll" />
   </ItemGroup>
 
 </Project>
