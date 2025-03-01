@@ -11,6 +11,8 @@
     <StartupObject>YouTubeToMp3.Program</StartupObject>
     <SignAssembly>False</SignAssembly>
     <ApplicationIcon>youtube.ico</ApplicationIcon>
+    <NuGetAuditMode>direct</NuGetAuditMode>
+	<IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,5 +32,5 @@
   <ItemGroup>
     <None Remove="C:\Users\Kieran Hill\.nuget\packages\naudio.lame\2.1.0\build\libmp3lame.64.dll" />
   </ItemGroup>
-
+  
 </Project>
