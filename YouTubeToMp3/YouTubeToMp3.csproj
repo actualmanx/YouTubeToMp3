@@ -13,7 +13,7 @@
     <ApplicationIcon>youtube.ico</ApplicationIcon>
     <NuGetAuditMode>direct</NuGetAuditMode>
 	<IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
-	<FileVersion>1.0.0.2</FileVersion>
+	<FileVersion>1.0.0.3</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
