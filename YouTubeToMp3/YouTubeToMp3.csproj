@@ -21,9 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="NAudio" Version="2.3.0" />
     <PackageReference Include="NAudio.Lame" Version="2.1.0" />
-    <PackageReference Include="YoutubeExplode" Version="6.5.6" />
+    <PackageReference Include="YoutubeExplode" Version="6.5.7" />
   </ItemGroup>
 
   <ItemGroup>
